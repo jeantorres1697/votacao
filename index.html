@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Eleitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cadastro-container">
+        <h2>Cadastro de Eleitor</h2>
+        <form id="cadastroForm">
+            <label for="nome" class="texto-label">Nome completo</label>
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <label for="tel" class="texto-label">Telefone</label>
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <button type="submit" class="botaao">Cadastrar</button>
+        </form>
+        <div class="login-gerado" id="loginGerado"></div>
+    <button type="button" class="botaao btcenter" onclick="consultarCadastro()">Consultar</button>
+    <div id="consultaCadastro"></div>
+    </div>
+
+    <div class="autenticacao-container"> 
+        <h2>Já possui cadastro?<br> Faça login para votar:</h3>
+        <form id="loginForm">
+            <input type="text" id="loginAcesso" placeholder="Digite seu login" required>
+            <button type="submit" class="botaao">Entrar</button>
+        </form>
+        <div id="loginMsg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
