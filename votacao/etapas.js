@@ -8,7 +8,7 @@ let etapas = [
                     name: 'Michael Jackson',
                     partido: 'Rusber',
                     fotos: [
-                        {url:'./images/michael.png', legenda: 'Vereador'}
+                        {url:'images/michael.png', legenda: 'Vereador'}
                     ], 
                     votos: 0
                 },
@@ -18,7 +18,7 @@ let etapas = [
                     name: 'Saitama',
                     partido: 'Super Herois',
                     fotos: [
-                        {url: './images/saitama.png', legenda: 'Vereador'}
+                        {url: 'images/saitama.png', legenda: 'Vereador'}
                      ], 
                     votos: 0
                 },
@@ -28,7 +28,7 @@ let etapas = [
                     name: 'Goku',
                     partido: 'Sayajins',
                     fotos: [
-                        {url: './images/goku.png', legenda: 'Vereador'}
+                        {url: 'images/goku.png', legenda: 'Vereador'}
                     ], 
                     votos: 0
                 },
@@ -45,8 +45,8 @@ let etapas = [
                     partido: 'Siri Cascudo',
                     vice: 'Patrick Estrela',
                     fotos: [
-                        {url:'./images/siriguejo.png', legenda: 'Prefeito'},
-                        {url: './images/patrick.png', legenda: 'Vice-Prefeito', small: true}
+                        {url:'images/siriguejo.png', legenda: 'Prefeito'},
+                        {url: 'images/patrick.png', legenda: 'Vice-Prefeito', small: true}
                        ], 
                     votos: 0
                 },
@@ -56,8 +56,8 @@ let etapas = [
                     partido: 'PVM - Partido Vira Monstro',
                     vice: 'Bitelo',
                     fotos: [
-                        {url:'./images/Leostronda.png', legenda: 'Prefeito'},
-                        {url:'./images/bitelo.png', legenda: 'Vice-Prefeito', small: true}
+                        {url:'images/Leostronda.png', legenda: 'Prefeito'},
+                        {url:'images/bitelo.png', legenda: 'Vice-Prefeito', small: true}
                          ], 
                     votos: 0
                 },
