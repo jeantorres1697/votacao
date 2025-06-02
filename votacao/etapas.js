@@ -56,7 +56,7 @@ let etapas = [
                     partido: 'PVM - Partido Vira Monstro',
                     vice: 'Bitelo',
                     fotos: [
-                        {url:'/votacao/images/Leostronda.png', legenda: 'Prefeito'},
+                        {url:'/votacao/images/leostronda.png', legenda: 'Prefeito'},
                         {url:'/votacao/images/bitelo.png', legenda: 'Vice-Prefeito', small: true}
                          ], 
                     votos: 0
