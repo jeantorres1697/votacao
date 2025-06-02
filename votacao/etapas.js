@@ -8,7 +8,7 @@ let etapas = [
                     name: 'Michael Jackson',
                     partido: 'Rusber',
                     fotos: [
-                        {url:'../images/michael.png', legenda: 'Vereador'}
+                        {url:'../michael.png', legenda: 'Vereador'}
                     ], 
                     votos: 0
                 },
@@ -18,7 +18,7 @@ let etapas = [
                     name: 'Saitama',
                     partido: 'Super Herois',
                     fotos: [
-                        {url:'../images/saitama.png', legenda: 'Vereador'}
+                        {url:'saitama.png', legenda: 'Vereador'}
                      ], 
                     votos: 0
                 },
@@ -28,7 +28,7 @@ let etapas = [
                     name: 'Goku',
                     partido: 'Sayajins',
                     fotos: [
-                        {url:'../images/goku.png', legenda: 'Vereador'}
+                        {url:'./images/goku.png', legenda: 'Vereador'}
                     ], 
                     votos: 0
                 },
