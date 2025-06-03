@@ -8,7 +8,7 @@ let etapas = [
                     name: 'Michael Jackson',
                     partido: 'Rusber',
                     fotos: [
-                        {url:'/votacao/images/michael.png', legenda: 'Vereador'}
+                        {url:'https://jeantorres1697.github.io/votacao/images/michael.png', legenda: 'Vereador'}
                     ], 
                     votos: 0
                 },
